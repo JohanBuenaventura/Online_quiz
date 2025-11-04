@@ -1,0 +1,269 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f6fa;
+  color: #222;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
+.logo span {
+  color: #3a86ff;
+}
+
+.navbar nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.navbar nav a:hover {
+  color: #3a86ff;
+}
+
+.btn-primary {
+  background: #3a86ff;
+  color: #fff !important;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #265dbe;
+}
+
+.btn-outline {
+  border: 2px solid #3a86ff;
+  color: #3a86ff !important;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.btn-outline:hover {
+  background: #3a86ff;
+  color: #fff !important;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 10%;
+  background: linear-gradient(to right, #f7f9fc, #eef3ff);
+}
+
+.hero-content {
+  max-width: 520px;
+}
+
+.hero-content h1 {
+  font-size: 2.6rem;
+  color: #1e1e1e;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn, .btn-outline {
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn {
+  background: #3a86ff;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #265dbe;
+}
+
+.hero-image img {
+  width: 400px;
+  max-width: 100%;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Features */
+.features {
+  padding: 60px 10%;
+  background: #fff;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.feature {
+  background: #f7f9fc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  color: #1e1e1e;
+  margin-bottom: 8px;
+}
+
+.feature p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Footer */
+.footer {
+  background: #1e1e1e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 25px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    margin-bottom: 30px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+}
+
+/* === About Section === */
+.about {
+  background: var(--background);
+  padding: 80px 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1 1 480px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+.about-text p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.about-image {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+  transition: var(--transition);
+}
+
+.about-image img:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+}
+
+
