@@ -1,8 +1,4 @@
-/* ================================================
-   Manage Quizzes (Admin)
-   Author: Johan Buenaventura
-   Description: Professional admin table layout
-================================================ */
+
 
 /* Base Layout */
 body {
@@ -133,3 +129,4 @@ p a:hover {
     font-size: 0.85rem;
   }
 }
+
