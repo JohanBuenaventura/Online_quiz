@@ -1,9 +1,3 @@
-/* ================================================
-   Edit User Page Styles
-   Author: Johan Buenaventura
-   Description: Clean, modern admin form for editing user info
-================================================ */
-
 /* Base Layout */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
@@ -132,3 +126,4 @@ a[href*="manage_users.php"]:hover {
     padding: 10px;
   }
 }
+
