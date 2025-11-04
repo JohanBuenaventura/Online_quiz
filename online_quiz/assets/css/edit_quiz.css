@@ -1,8 +1,3 @@
-/* ================================================
-   Edit Quiz Page Styles
-   Author: Johan Buenaventura
-   Description: Clean academic form style for editing quizzes
-================================================ */
 
 /* Base Layout */
 body {
@@ -142,3 +137,4 @@ a:hover {
     padding: 10px;
   }
 }
+
