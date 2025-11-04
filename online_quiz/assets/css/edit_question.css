@@ -1,9 +1,3 @@
-/* ================================================
-   Edit Question Page Styles
-   Author: Johan Buenaventura
-   Description: Clean academic form style for editing questions
-================================================ */
-
 /* Base Layout */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
@@ -182,3 +176,4 @@ a[href*="manage_questions.php"]:hover {
     padding: 10px;
   }
 }
+
