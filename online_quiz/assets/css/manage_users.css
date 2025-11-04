@@ -1,7 +1,4 @@
-/* ============================================
-   LearnInFlash: Manage Users (Admin Section)
-   Author: Johan Buenaventura
-   ============================================ */
+
 
 :root {
   --primary: #2563eb;
@@ -181,3 +178,4 @@ p a.back:hover {
     font-size: 14px;
   }
 }
+
