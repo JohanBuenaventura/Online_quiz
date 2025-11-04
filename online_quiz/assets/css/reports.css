@@ -1,8 +1,3 @@
-/* ============================================
-   LearnInFlash: Admin Reports Page
-   Author: Johan Buenaventura
-   Consistent with Admin Dashboard & Management Pages
-   ============================================ */
 
 :root {
   --primary: #2563eb;
@@ -212,3 +207,4 @@ p.back a:hover {
     color: #444;
   }
 }
+
